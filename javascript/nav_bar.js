@@ -8,3 +8,4 @@ items.forEach((item,i)=>{
         document.querySelector('.pointer').style.left = `${i * 98 + 34}px`
     })
 })
+
