@@ -9,3 +9,10 @@ items.forEach((item,i)=>{
     })
 })
 
+items.forEach((item,i)=>{
+    item.addEventListener('mouseover', ()=>{
+        document.querySelector('.active').classList.remove('active');
+        item.classList.add('active');
+        })
+})
+
