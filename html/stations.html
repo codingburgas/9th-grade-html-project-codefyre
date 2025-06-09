@@ -5,8 +5,14 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/stations.css">
 
+    
 </head>
 <body>
+  <div class="page-wrap">
+        <div class = "content">
+                Content
+        </div>
+
     <p>Областна Дирекция Пожарна Безопасност И Защита на Населението</p>
     <p><strong>Улица:</strong>8000 град Бургас, ул. „ Александър Велики” № 37 Б</p>
     <p><strong>Телефон:</strong>056/856665</p>
@@ -22,11 +28,11 @@
     <p>sdjuaoidjsaio</p>
     </details>
     
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for incidents...">
 
 <table id="myTable">
   <tr class="header">
-    <th style="width:18%;">Date & Time</th>
+    <th style="width:18%;">Date&Time</th>
     <th style="width:18%;">Type</th>
     <th style="width:18%;">Address</th>
     <th style="width:18%;">Team</th>
@@ -80,6 +86,56 @@
     <td>text</td>
   </tr>
 </table>
+
+<p>Alert for an accident</p>
+<form class="blank for incidents" id="incidentForm" >
+  
+  <label for="incidenttime">Incident (date and time): </label>
+  <input type="datetime-local" id="incidenttime" name="incidenttime">
+
+  <label for="type of incidents">Type of incident: </label>
+  <input list="type of incidents" name="type of incidents">
+  <datalist id="type of incidents">
+    <option value="Fire">
+    <option value="Flooding">
+    <option value="Rescue operation">
+    <option value="Traffic Accident">
+  </datalist>
+
+  <label for="address">Address: </label>
+  <input type="text" id="address" name="address" placeholder="45 Aleksandrovska St, Burgas">
+
+  <label for="Rescue Team">Rescue Team: </label>
+  <input list="Rescue Team" name="Rescue Team">
+  <datalist id="Rescue Team">
+    <option value="Team Burgas 1">
+    <option value="Team Burgas 2">
+    <option value="Team Burgas 3">
+    <option value="Team Burgas 4">
+  </datalist>
+
+  <label for="Type of Vehicle">Type of Vehicle: </label>
+  <input list="Type of Vehicle" name="Type of Vehicle">
+  <datalist id="Type of Vehicle">
+    <option value="Firetruck 01">
+    <option value="Firetruck 02">
+    <option value="Rescue Van">
+    <option value="Water Tanker">
+  </datalist>
+
+  <label for="Status of the incident">Status of the incident: </label>
+  <input list="Status of the incident" name="Status of the incident">
+  <datalist id="Status of the incident">
+    <option value="Completed">
+    <option value="In progress">
+    <option value="Ended">
+  </datalist>
+
+  <input type="submit" class="submitButton" id="submitButton" value="Submit">
+
+</form>
+
+</form>
 
     <script src="../javascript/stations.js"></script>
 </body>
