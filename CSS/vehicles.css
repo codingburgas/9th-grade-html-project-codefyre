@@ -1,45 +1,71 @@
 body {
-    background-image: url('../images/background_truck.jpg'); 
+    background-image: url('../images/background_truck.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
 }
-h1{
-    text-align: center;
-    color: white;
-    font-size: 40px;
+
+.page-wrap {
+    display: block;
+    padding-bottom: 80px; /* Space above navbar */
 }
-h2 {
+
+.content {
+    background-color: transparent;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 60px 80px;
+    text-align: center;
+    border: transparent;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
     text-align: center;
     color: white;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+h2 {
     font-size: 28px;
+    color: white;
     margin-top: 40px;
 }
 
 p {
-    font-size: 20px;
-    color: #444;
-    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
     margin: 20px auto;
-    text-align: center;
-    width: 90%;
-    max-width: 800px;
-    background-color: #f9f9f9;
-    padding: 20px 30px;
     border-radius: 15px;
-    border: 1px solid #ddd;
-    box-sizing: border-box;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
-img.Fireengine,
-img.Aeriallt,
-img.Rescuevehicle,
-img.Watertanker {
+img {
     display: block;
-    margin: 20px auto 60px auto;
-    width: 500px;
-    height: auto;
+    margin: 20px auto;
     border-radius: 15px;
+    max-width: 90%;
+    height: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Fireengine, .Aeriallt, .Rescuevehicle, .Watertanker {
+    max-width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.Fireengine:hover,
+.Aeriallt:hover,
+.Rescuevehicle:hover,
+.Watertanker:hover {
+    transform: scale(1);
 }
