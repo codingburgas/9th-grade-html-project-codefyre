@@ -1,3 +1,10 @@
+body {
+
+        background-image: url('https://nstatic.nova.bg/public/pics/nova/article/980x551_1700813679.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
 .page-wrap {
     display: block;
 }
