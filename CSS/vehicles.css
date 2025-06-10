@@ -1,0 +1,45 @@
+body {
+    background-image: url('../images/background_truck.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.6;
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+img.Fireengine,
+img.Aeriallt,
+img.Rescuevehicle,
+img.Watertanker {
+    display: block;
+    margin: 20px auto 60px auto;
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
