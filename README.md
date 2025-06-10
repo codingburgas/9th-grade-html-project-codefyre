@@ -1,45 +1,36 @@
-<h1 align="center"><em>📚💻 GitGud 💻📚</em> </h1>
-<p align = "center">
-<img src = "https://img.shields.io/badge/contributors-4-red"50/50>
-<img src = "https://img.shields.io/badge/hope_you_like_it-blue"50/50>
-<img src = "https://img.shields.io/badge/languages-1-green"50/50>
-<p align = "center">
-<img width="600" src="gitGut/gitGut/images/Logo-removebg-preview.png" alt="Logo png">
-</p>
- 
+![Logo](images/def_logo.png)
+<hr>
+
+<h1 align="center"><em>🔥 Team Codefyre 🔥</em> </h1>
+
 ## 📋 Description
-### <em>We are Team Codefyre, and our mission is to create an interactive online school. Our platform is designed to make learning not only easier but also more enjoyable. Through a series of tests, learners can test their knowledge. Additionally, we provide assignments that offer further practice for those looking to deepen their understanding.</em>
- 
+### <em>We are Team Codefyre.Our mission is to build an interactive system that supports fire safety operations. The platform helps teams respond faster, manage crews and vehicles, and stay ready through reports and training tools.</em>
+
 ## 🚀 Languages
 <br>
-<div align="left"> 
-<img height="60" width="58" src = ""/>
+<div align="left">
+<img height="40" width="107" src="https://www.clipartmax.com/png/full/68-688026_html-5-icon-html5-css3-logo-png.png"/>
 </div>
- 
+
 ## 🎨Design
 <br>
 <div align="left">
-<img height="58" width="58" src="gitGut/gitGut/images/canva.png"/>
-<img height="58" width="58" src="gitGut/gitGut/images/figma.png"/>
-<img height = "58" width = "58" src="gitGut/gitGut/images/blender logo.png"/>
+<img height="58" width="78" src="https://logos-world.net/wp-content/uploads/2020/02/Canva-Logo.png"/>
 </div>
 
-## 📁 Documents
- 
-### Documentation
- 
- 
-### Presenting
- 
- 
-### Design
- 
- 
-## 👥 Team
- 
+## 👥 Our crew
+
 | **Name** | **Role** | **Grade** |
 | :---:   | :---: | :---: |
 | Borimir Kirov | Scrum trainer | 🟥 9B |
 | Milen Vasilev | Front - End Developer  | 🟩 9V  |
 | Dimitar Meshkov | Back - End developer  | 🟦 9G|
-| Kiril Zhilichev | Back - End developer  | 🟨 9A |
+| Kiril Gilichev | Designer  | 🟨 9B |
+
+<hr>
+
+<h2 id="download">Download</h2>
+<p>If you enjoyed what you saw you can also clone our project for further expection. Enjoy!</p>
+<pre align="center">git clone "https://github.com/codingburgas/9th-grade-html-project-codefyre.git"</pre>
+<hr>
+
