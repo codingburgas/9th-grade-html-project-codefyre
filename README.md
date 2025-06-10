@@ -1,4 +1,6 @@
-![Logo](images/def_logo.png)
+<p align="center">
+  <img src="images/def_logo.png" alt="Logo" width="150"/>
+</p>
 <hr>
 
 <h1 align="center"><em>🔥 Team Codefyre 🔥</em> </h1>
