@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Контейнери за графиките */
 .chart-container {
     background-color: white;
     border-radius: 10px;
@@ -30,7 +29,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Стилове за филтрите */
 .filters {
     background-color: white;
     padding: 20px;
@@ -81,16 +79,4 @@ button {
 
 button:hover {
     background-color: #c9302c;
-}
-
-/* Адаптивни стилове */
-@media (max-width: 768px) {
-    body {
-        margin-left: 0;
-        padding-top: 60px;
-    }
-    
-    .filter-item {
-        min-width: 100%;
-    }
 }
