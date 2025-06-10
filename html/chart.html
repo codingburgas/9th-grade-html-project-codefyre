@@ -3,73 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charts</title>
+    <title>Fire Department Statistics</title>
     <link rel="stylesheet" href="../css/nav_bar.css">
     <link rel="stylesheet" href="../css/chart.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../javascript/chart.js" defer></script>
 </head>
 <body>
 
     <div class="navbar">
-            <ul>
-                <li>
-                    <a href="#" class="items active">
-                        <i class="fa-solid fa-house"></i>
-                        <span class="on">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="stations.html" class="items">
-                        <i class="fa-solid fa-building-shield"></i>
-                        <span class="on">Stations</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="vehicles.html" class="items">
-                        <i class="fa-solid fa-truck"></i>
-                        <span class="on">Vehicles</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="teams.html" class="items">
-                        <i class="fa-solid fa-people-group"></i>
-                        <span class="on">Teams</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="items">
-                        <i class="fa-solid fa-triangle-exclamation"></i>
-                        <span class="on">Incidents</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="map.html" class="items">
-                        <i class="fa-solid fa-map-location-dot"></i>
-                        <span class="on">Map</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="chart.html" class="items">
-                        <i class="fa-solid fa-chart-bar"></i>
-                        <span class="on">Statistics</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="items">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span class="on">Messages</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="items">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="on">Settings</span>
-                    </a>
-                </li>
-                <span class="pointer"></span>
-            </ul>
-        </div>
+        <ul>
+            <li>
+                <a href="home_page.html" class="items">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="on">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="stations.html" class="items">
+                    <i class="fa-solid fa-building-shield"></i>
+                    <span class="on">Stations</span>
+                </a>
+            </li>
+            <li>
+                <a href="vehicles.html" class="items">
+                    <i class="fa-solid fa-truck"></i>
+                    <span class="on">Vehicles</span>
+                </a>
+            </li>
+            <li>
+                <a href="teams.html" class="items">
+                    <i class="fa-solid fa-people-group"></i>
+                    <span class="on">Teams</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="items">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span class="on">Incidents</span>
+                </a>
+            </li>
+            <li>
+                <a href="map.html" class="items">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <span class="on">Map</span>
+                </a>
+            </li>
+            <li>
+                <a href="chart.html" class="items active">
+                    <i class="fa-solid fa-chart-bar"></i>
+                    <span class="on">Statistics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="items">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="on">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="items">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="on">Settings</span>
+                </a>
+            </li>
+            <span class="pointer"></span>
+        </ul>
+    </div>
 
-<script src="../javascript/nav_bar.js"></script>
+    <div class="content">
+        <h1>Fire Department Statistics</h1>
+        
+        
+        <!-- Графика 1: Месечни пожари -->
+        <div class="chart-container">
+            <h2>Monthly Fire Incidents</h2>
+            <canvas id="monthlyFiresChart"></canvas>
+        </div>
+        
+        <!-- Графика 2: Типове инциденти -->
+        <div class="chart-container">
+            <h2>Incident Types Distribution</h2>
+            <canvas id="incidentTypesChart"></canvas>
+        </div>
+        
+        <!-- Графика 3: Статус на екипи -->
+        <div class="chart-container">
+            <h2>Team Status</h2>
+            <canvas id="teamStatusChart"></canvas>
+        </div>
+        
+        <!-- Графика 4: Време за реакция -->
+        <div class="chart-container">
+            <h2>Average Response Time (minutes)</h2>
+            <canvas id="responseTimeChart"></canvas>
+        </div>
+    </div>
+
+    <script src="../javascript/nav_bar.js"></script>
 </body>
 </html>
