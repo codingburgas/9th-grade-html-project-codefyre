@@ -42,4 +42,4 @@
 | Borimir Kirov | Scrum trainer | 🟥 9B |
 | Milen Vasilev | Front - End Developer  | 🟩 9V  |
 | Dimitar Meshkov | Back - End developer  | 🟦 9G|
-| Kiril Gilichev | Designer  | 🟨 9B |
+| Kiril Zhilichev | Back - End developer  | 🟨 9A |
