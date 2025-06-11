@@ -10,6 +10,7 @@ body {
 }
 
 .content {
+    position:relative;
     width: 100%;
     margin: 60px auto 70px auto;
     padding: 60px 80px;
@@ -39,7 +40,13 @@ h1{
     color: white;
 }
 
-
+#presentationn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+  max-width: 300px;
+}
 
 
 
