@@ -1,7 +1,7 @@
 const items = document.querySelectorAll(".items");
  
 items.forEach((item,i)=>{
-    item.addEventListener('click', ()=>{
+    item.addEventListener('mouseover', ()=>{
         document.querySelector('.active').classList.remove('active');
         item.classList.add('active');
  
@@ -9,12 +9,16 @@ items.forEach((item,i)=>{
     })
 })
 
-items.forEach((item,i)=>{
-    item.addEventListener('mouseover', ()=>{
+items.forEach((item, i) => {
+    item.addEventListener('click', () => {
         document.querySelector('.active').classList.remove('active');
         item.classList.add('active');
-        })
+
+        document.querySelector('.pointer').style.left = `${i * 98 + 34}px`;
+    });
 })
+
+
 
 
 
