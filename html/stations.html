@@ -43,50 +43,37 @@
     <th style="width:18%;">Status</th>
   </tr>
   <tr>
-    <td>2025-06-01 13:00</td>
-    <td>fire</td>
+    <td>2025-01-06T13:00</td>
+    <td>Fire</td>
     <td>45 Aleksandrovska St, Burgas</td>
-    <td>Team Burgas 1</td>
-    <td>Firetruck 01</td>
+    <td>Firefighters Brigade</td>
+    <td>Fire Engine</td>
     <td>Completed</td>
   </tr>
   <tr>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
+    <td>2025-02-03T16:00</td>
+    <td>Flooding</td>
+    <td>7 Slavyanska St, Burgas</td>
+    <td>Flood Rescue Unit</td>
+    <td>Aerial Ladder Truck</td>
+    <td>In progress</td>
+    <td></td>
   </tr>
   <tr>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
+    <td>2025-03-17T20:00</td>
+    <td>Traffic Accident</td>
+    <td>4 Chayka St, Burgas</td>
+    <td>Traffic Incident Response Team</td>
+    <td>Rescue Van</td>
+    <td>Completed</td>
   </tr>
   <tr>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-  </tr>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-  </tr>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
-    <td>text</td>
+    <td>2025-05-24T08:00</td>
+    <td>Rescue operation</td>
+    <td>25 Vasil Levski St, Burgas</td>
+    <td>Search and Rescue Team</td>
+    <td>Rescue Van</td>
+    <td>Completed</td>
   </tr>
 </table>
 
@@ -111,10 +98,10 @@
   <label for="Rescue Team">Rescue Team: </label>
   <input list="Rescue Team" name="Rescue Team">
   <datalist id="Rescue Team">
-    <option value="Team Burgas 1">
-    <option value="Team Burgas 2">
-    <option value="Team Burgas 3">
-    <option value="Team Burgas 4">
+    <option value="Firefighters Brigade">
+    <option value="Flood Rescue Unit">
+    <option value="Search and Rescue Team">
+    <option value="Traffic Incident Response Team">
   </datalist>
 
   <label for="Type of Vehicle">Type of Vehicle: </label>
@@ -131,14 +118,12 @@
   <datalist id="Status of the incident">
     <option value="Completed">
     <option value="In progress">
-    <option value="Ended">
+    <option value="">
   </datalist>
 
   <input type="submit" class="submitButton" id="submitButton" value="Submit">
 
 </form>
-
-<script src="../javascript/stations.js"></script>
 
 <div class="navbar">
             <ul>
@@ -191,6 +176,7 @@
     </div>
 
     <script src="../javascript/nav_bar.js"></script>
+    <script src="../javascript/stations.js"></script>
 
 </body>
 </html>

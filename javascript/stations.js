@@ -53,6 +53,25 @@ function tableadd(event) {
   newRow.appendChild(status);
 
   table.appendChild(newRow);
+
+  let rows = table.getElementsByTagName('tr');
+  let rowsHTML = '';
+  for (let i = 1; i < rows.length; i++) {
+    rowsHTML += rows[i].outerHTML;
+  }
+  localStorage.setItem('incidentTableRows', rowsHTML);
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+  let savedRows = localStorage.getItem('incidentTableRows');
+  if (savedRows) {
+    let table = document.getElementById('myTable');
+    let rows = table.getElementsByTagName('tr');
+    for (let i = rows.length - 1; i > 0; i--) {
+      rows[i].remove();
+    }
+    table.innerHTML += savedRows;
+  }
+});
 
   document.getElementById('submitButton').addEventListener('click', tableadd);
